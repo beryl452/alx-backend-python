@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Duck typing - first element of a sequence"""
-from typing import Sequence, Any, Union, Mapping
+from typing import Sequence, Any, Union, Mapping, TypeVar
 
 
 T = TypeVar('T')

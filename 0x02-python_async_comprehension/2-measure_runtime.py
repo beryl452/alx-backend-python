@@ -12,7 +12,7 @@ async def measure_runtime() -> float:
     Measures the runtime of the async_comprehension
     function by calculating the time taken to execute it.
 
-    Returns:a
+    Returns:
         float: The runtime of the async_comprehension function in seconds.
     """
     start_time = time.time()
@@ -22,4 +22,4 @@ async def measure_runtime() -> float:
         async_comprehension(),
         async_comprehension()
         )
-    return (time.time() - start_time)
+    return time.time() - start_time
